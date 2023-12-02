@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [savven0k](https://up.htmlacademy.ru/adaptive/30/user/1734813).
-* Наставник: `Арсений Березин`.
+* Наставник: `https://htmlacademy.ru/profile/bars07`.
 
 ---
 
