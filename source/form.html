@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Кэт энерджи</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page__body">
+    <header class="main-header">
+        <a class="main-header__logo">
+            <img class="main-header__image" src="" width="" height="" alt="Логотип">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toogle" type="button">
+                <span class="visually-hidden">Окрыть меню</span>
+            </button>
+            <div class="main-nav__wrapper">
+                <ul class="main-nav__list">
+                    <li class="site-list__item">
+                        <a>
+                            Главная
+                        </a>
+                    </li>
+                    <li class="site-list__item">
+                        <a>
+                            Каталог продукции
+                        </a>
+                    </li>
+                    <li class="site-list__item">
+                        <a>
+                            Подбор программы
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-form">
+        <ul class="main-form__blank blank">
+            <li class="blank">
+                <h1 class="blank__title">Подбор программы</h1>
+                <b class="blank__text">Заполните анкету, и мы подберем программу питания для вашего кота</b>
+            </li>
+        </ul>
+        <form class="form__nutrition nutrition">
+            <div class="nutrition__name">Имя:*</div>
+            <input type="text" name="name" required="required">
+            <div class="nutrition__weight">Вес (кг):*</div>
+            <input type="text" name="weight" required="required">
+            <div class="nutrition__age">Возраст (лет):</div>
+            <input type="text" name="age" required="required">
+        </form>
+        <form class="choice">
+            <div class="choice__thin">Похудение</div>
+            <input type="radio" name="thin" required="required" checked>
+            <div class="choice__weight">Набор массы</div>
+            <input type="radio" name="weight" required="required">
+            <div class="choice__help">Не знаю (Нужен ваш совет)</div>
+            <input type="radio" name="help" required="required">
+        </form>
+        <div class="form__contacts contacts">
+            <h2 class="contacts__title">Контактные данные (владельца кота)</h2>
+            <form class="сontact__form">
+                <div class="contacts__email">E-mail:*</div>
+                <img class="contact__letter" src="" width="" height="" alt="Письмо">
+                <input type="email" name="mail" placeholder="kuklachev@gmail.com" required="required">
+                <div class="contacts__phone">Телефон:*</div>
+                <input type="tel" name="phone" placeholder="8 (960) 900-60-90" required="required">
+                <img class="contact__call" src="" width="" height="" alt="Телефон">
+            </form>
+        </div>
+        <div class="form__comment comment">
+            <h2 class="comment__title">Комментарий</h2>
+            <form class="comment__story">
+                <input type="text" name="comment" placeholder="Расскажите обо всех повАдках кота" required="required">
+            </form>
+        </div>
+        <div class="form__addition addition">
+            <h2 class="addition__title">Дополнительно</h2>
+            <form class="addition__rest">
+                <div class="addition__sweetener">Сахарозаменитель</div>
+                <input type="checkbox" name="sweetener" required="required" checked>
+                <div class="addition__water">Питьевая вода</div>
+                <input type="checkbox" name="water" required="required">
+                <div class="addition__milk">Молоко</div>
+                <input type="checkbox" name="milk" required="required">
+                <div class="addition__vitamins">Витамины</div>
+                <input type="checkbox" name="vitamins" required="required">
+                <button class="addition__application" type="button">Отправить заявку</button>
+            </form>
+            <a class="addition__necessarily">* — Обязательные поля</a>
+        </div>
+        <div class="cooperation">
+            <h3 class="cooperation__title">Приглашаемк сотрудничеству дилеров!</h3>
+            <a class="cooperation__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</a>
+            <img class="cooperation__map" src="" width="" height="" alt="Карта">
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer__wrapper">
+            <div class="main-footer__logo logo">
+                <img class="logo__project" src="" width="" height="" alt="Cat energy">
+            </div>
+            <div class="main-footer__social social">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в
+                            Вконтакте</a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--youtube"
+                            href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в
+                            Телеграме</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-footer__copyright copyright">
+                <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy
+                    <img class="copyright__logo" src="" width="" height="" alt="Лого html">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
