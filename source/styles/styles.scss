@@ -1,7 +1,39 @@
-/* GLOBAL */
-@import "./global/variables.scss";
-@import "./global/global.scss";
-@import "./global/fonts.scss";
+// GLOBAL
+@import "global/variables.scss";
+@import "global/fonts.scss";
+@import "global/global.scss";
+@import "global/common.scss";
+@import "global/visually-hidden.scss";
 
-/* BLOCKS */
-@import "./blocks/header.scss";
+//common blocks//
+@import "global/main-header.scss";
+@import "global/main-nav.scss";
+@import "global/nav-list.scss";
+@import "global/main-footer.scss";
+@import "global/contacts.scss";
+@import "global/logo.scss";
+@import "global/social.scss";
+@import "global/copyright.scss";
+//index blocks//
+@import "global/nutrition.scss";
+@import "global/article.scss";
+@import "global/quality-list.scss";
+@import "global/example.scss";
+@import "global/result-list.scss";
+@import "global/slider.scss";
+//catalog blocks//
+@import "global/main-catalog.scss";
+@import "global/item.scss";
+@import "global/all-goods.scss";
+@import "global/additional-products.scss";
+@import "global/present.scss";
+//form blocks//
+@import "global/main-form.scss";
+@import "global/user-data.scss";
+@import "global/personal-info.scss";
+@import "global/target.scss";
+@import "global/owner-contacts.scss";
+@import "global/comment.scss";
+@import "global/healthy.scss";
+@import "global/button-submit.scss";
+@import "global/form-disclaimer.scss";
