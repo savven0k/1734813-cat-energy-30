@@ -57,9 +57,9 @@
       <p class="nutrition__motto">Занялся собой? Займись котом!</p>
       <picture>
         <source width="552" height="499" type="image/png" media="(min-width: 1440px)"
-          srcset="./images/can-main-desktop@1x.png 1x, ./images/can-main-desktop@2x.png 2x">
+          srcset="./images/index-can-desk@1x.png 1x, ./images/index-can-desk@2x.png 2x">
         <source width="709" height="609" type="image/png" media="(min-width: 768px)"
-          srcset="./images/can-main-tablet@1x.png 1x, ./images/can-main-tablet@2x.png 2x">
+          srcset="./images/index-can-tablet@1x.png 1x, ./images/index-can-tablet@2x.png 2x">
         <img class="nutrition__image" src="images/index-can-mobile.png" width="280" height="270" alt="Банка еды">
       </picture>
       <a class="nutrition__toogle" href="#">Подобрать программу</a>
@@ -67,6 +67,9 @@
     <section class="article">
       <ul class="article__main">
         <li class="article__target">
+          <picture>
+            <img class="article__image" src="images/cat-thin.png" width="50" height="53" alt="Слабый кот">
+          </picture>
           <div class="article__target-wrapper article__target-wrapper--slim">
             <h2 class="article__title">Похудение</h2>
             <p class="article__motto">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора
@@ -77,6 +80,9 @@
           </div>
         </li>
         <li class="article__target">
+          <picture>
+            <img class="article__image" src="images/cat-strong.png" width="67" height="50" alt="Сильный кот">
+          </picture>
           <div class="article__target-wrapper article__target-wrapper--pro">
             <h2 class="article__title">Набор массы</h2>
             <p class="article__motto">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro
@@ -140,22 +146,24 @@
         </button>
         <ul class="slider__list">
           <li class="slider__item">
-            <source width="1120" height="1024" type="image/png" media="(min-width: 1440px)"
-              srcset="./images/cat-before-desktop@1x.png 1x, ./images/cat-before-desktop@2x.png 2x">
-            <source width="560" height="512" type="image/png" media="(min-width: 768px)"
-              srcset="./images/cat-before-tablet@1x.png 1x, ./images/cat-before-tablet@2x.png 2x">
             <picture>
+              <source width="1120" height="1024" type="image/png" media="(min-width: 1440px)"
+                srcset="./images/cat-before-desktop@1x.png 1x, ./images/cat-before-desktop@2x.png 2x">
+              <source width="560" height="512" type="image/png" media="(min-width: 768px)"
+                srcset="./images/cat-before-tablet@1x.png 1x, ./images/cat-before-tablet@2x.png 2x">
               <img class="slider__image slider__image==before" src="images/cat-before@1x.png"
                 srcset="images/cat-before@2x.png" width="560" height="512" alt="Толстый кот">
             </picture>
           </li>
           <li class="slider__item">
-            <source width="1120" height="1024" type="image/png" media="(min-width: 1440px)"
-              srcset="./images/cat-after-desktop@1x.png 1x, ./images/cat-after-desktop@2x.png 2x">
-            <source width="560" height="512" type="image/png" media="(min-width: 768px)"
-              srcset="./images/cat-after-tablet@1x.png 1x, ./images/cat-after-tablet@2x.png 2x">
-            <img class="slider__image slider__image==after" src="images/cat-after@1x.png"
-              srcset="images/cat-after@2x.png" width="560" height="512" alt="Худой кот">
+            <picture>
+              <source width="1120" height="1024" type="image/png" media="(min-width: 1440px)"
+                srcset="./images/cat-after-desktop@1x.png 1x, ./images/cat-after-desktop@2x.png 2x">
+              <source width="560" height="512" type="image/png" media="(min-width: 768px)"
+                srcset="./images/cat-after-tablet@1x.png 1x, ./images/cat-after-tablet@2x.png 2x">
+              <img class="slider__image slider__image==after" src="images/cat-after@1x.png"
+                srcset="images/cat-after@2x.png" width="560" height="512" alt="Худой кот">
+            </picture>
           </li>
         </ul>
       </div>
@@ -166,11 +174,13 @@
       <div class="main-footer__contacts contacts">
         <h3 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h3>
         <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-        <source width="1440" height="400" type="image/png" media="(min-width: 1440px)"
-          srcset="./images/map-desktop@1x.png 1x, ./images/map-desktop@2x.png 2x">
-        <source width="768" height="400" type="image/png" media="(min-width: 768px)"
-          srcset="./images/map-tablet@1x.png 1x, ./images/map-tablet@2x.png 2x">
-        <img class="contacts__map" src="images/map-index.png" alt="Карта где находимся" width="320" height="362">
+        <picture>
+          <source width="1440" height="400" type="image/png" media="(min-width: 1440px)"
+            srcset="./images/map-desktop@1x.png 1x, ./images/map-desktop@2x.png 2x">
+          <source width="768" height="400" type="image/png" media="(min-width: 768px)"
+            srcset="./images/map-tablet@1x.png 1x, ./images/map-tablet@2x.png 2x">
+          <img class="contacts__map" src="images/map-index.png" alt="Карта где находимся" width="320" height="362">
+        </picture>
       </div>
       <picture class="main-footer__logo logo">
         <img class="logo__project" src="images/footer-logo.png" width="128" height="24" alt="Cat energy">
