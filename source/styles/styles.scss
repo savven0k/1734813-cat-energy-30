@@ -1,7 +1,31 @@
-/* GLOBAL */
-@import "./global/variables.scss";
-@import "./global/global.scss";
-@import "./global/fonts.scss";
+// GLOBAL
+@import "global/variables.scss";
+@import "global/mixins.scss";
+@import "global/fonts.scss";
+@import "global/common.scss";
+@import "global/visually-hidden.scss";
 
-/* BLOCKS */
-@import "./blocks/header.scss";
+//catalog//
+@import "blocks/header.scss";
+@import "blocks/nav-list.scss";
+@import "blocks/item.scss";
+@import "blocks/all-goods.scss";
+@import "blocks/additional-products.scss";
+@import "blocks/present.scss";
+@import "blocks/contacts.scss";
+@import "blocks/copyright.scss";
+//form//
+@import "blocks/main-form.scss";
+@import "blocks/personal-info.scss";
+@import "blocks/target-info.scss";
+@import "blocks/owner-contacts.scss";
+@import "blocks/comment.scss";
+@import "blocks/healthy.scss";
+@import "blocks/button.scss";
+@import "blocks/form-disclaimer.scss";
+//index//
+@import "blocks/nutrition.scss";
+@import "blocks/article.scss";
+@import "blocks/quality-list.scss";
+@import "blocks/example.scss";
+@import "blocks/result-list.scss";
