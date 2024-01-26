@@ -1,91 +1,91 @@
 .owner-contacts__title {
-    font-family: "Oswald", sans-serif;
-    font-size: 36px;
-    line-height: 36px;
-    color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
 }
 
 .owner-contacts__label {
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    color: $base-color-text;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: $base-color-text;
 }
 
 .owner-contacts__input {
-    flex-grow: 1;
-    box-sizing: border-box;
-    font-family: $primary-font;
-    color: #444444;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    text-transform: uppercase;
-    border: 1px solid #e7e7e7;
-    height: 45px;
-    padding-left: 15px;
-    padding-right: 45px;
-  
-    @media (min-width: 768px) {
-      font-size: 20px;
-      height: 52px;
-    }
+  flex-grow: 1;
+  box-sizing: border-box;
+  font-family: $primary-font;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 1px solid #e7e7e7;
+  height: 45px;
+  padding-left: 15px;
+  padding-right: 45px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    height: 52px;
   }
-  
-  .owner-contacts__input:hover {
-    border: 1px solid #cdcdcd;
+}
+
+.owner-contacts__input:hover {
+  border: 1px solid #cdcdcd;
+}
+
+.owner-contacts__input:focus {
+  outline: none;
+  border: 2px solid #444444;
+}
+
+.owner-contacts__input::placeholder {
+  color: #444444;
+  font-family: $primary-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
   }
-  
-  .owner-contacts__input:focus {
-    outline: none;
-    border: 2px solid #444444;
+}
+
+.owner-contacts__input--email {
+  background-image: url("../../images/icons/letter.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+  padding-right: 44px;
+
+  @media (min-width: 768px) {
+    //background-position: ;
   }
-  
-  .owner-contacts__input::placeholder {
-    color: #444444;
-    font-family: $primary-font;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    text-transform: uppercase;
-  
-    @media (min-width: 768px) {
-      font-size: 20px;
-    }
+
+  @media (min-width: 1440px) {
+    //background-position: ;
   }
-  
-  .owner-contacts__input--email {
-    background-image: url("../../images/icons/letter.svg");
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: center right 12px;
-    padding-right: 44px;
-  
-    @media (min-width: 768px) {
-      //background-position: ;
-    }
-  
-    @media (min-width: 1440px) {
-      //background-position: ;
-    }
+}
+
+//.owner-contacts__input--email:focus {
+//background-image: url("");
+//}
+
+.owner-contacts__input--phone {
+  background-image: url("../../images/icons/phone.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+  padding-right: 44px;
+
+  @media (min-width: 768px) {
+    //background-position: ;
   }
-  
-  //.owner-contacts__input--email:focus {
-    //background-image: url("");
-  //}
-  
-  .owner-contacts__input--phone {
-    background-image: url("../../images/icons/phone.svg");
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: center right 12px;
-    padding-right: 44px;
-  
-    @media (min-width: 768px) {
-      //background-position: ;
-    }
-  
-    @media (min-width: 1440px) {
-      //background-position: ;
-    }
+
+  @media (min-width: 1440px) {
+    //background-position: ;
   }
+}
