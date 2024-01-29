@@ -1,3 +1,22 @@
+.main-catalog__product {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    gap: 59px 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: end;
+    gap: 63px 80px;
+  }
+}
+
 .main-catalog__title {
   font-family: "Oswald", sans-serif;
   font-size: 60px;

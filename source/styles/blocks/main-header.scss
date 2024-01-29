@@ -1,5 +1,19 @@
-.header {
-  background-color: #663399;
-  color: #ffffff;
-  padding: 10px 15px;
+.main-header {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.main-header__logo {
+  height: 20px;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-start;
+    height: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: flex-start;
+    height: 19px;
+  }
 }
