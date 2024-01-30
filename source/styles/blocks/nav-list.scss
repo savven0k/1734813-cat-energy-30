@@ -1,3 +1,15 @@
+@media (min-width: $tablet-width) {
+  .nav-list {
+    width: 436px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 475px;
+  }
+}
+
 .nav-list__link {
   font-family: "Oswald", sans-serif;
   font-size: 18px;

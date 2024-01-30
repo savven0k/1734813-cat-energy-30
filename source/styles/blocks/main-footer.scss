@@ -1,0 +1,40 @@
+.main-footer__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer__logo {
+  height: 176px;
+
+  @media (min-width: $tablet-width) {
+    height: 61px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 72px;
+  }
+}
+
+.main-footer__social {
+  height: 114px;
+
+  @media (min-width: $tablet-width) {
+    height: 62px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 73px;
+  }
+}
+
+.main-footer__copyright {
+  height: 47px;
+
+  @media (min-width: $tablet-width) {
+    height: 55px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 66px;
+  }
+}
