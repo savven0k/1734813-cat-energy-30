@@ -1,23 +1,56 @@
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-font;
+  text-align: center;
+  background: rgba(104, 183, 56, 0.85);
+
+  @media (min-width: $tablet-width) {
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding-top: 25px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    margin-bottom: 82px;
+  }
+}
+
 .nutrition__title {
   font-family: "Oswald", sans-serif;
-  font-size: 60px;
-  line-height: 60px;
-  color: #000000;
+  font-size: 36px;
+  line-height: 36px;
+  color: $basic-white;
+  font-weight: 400;
+  margin: 25px 0 26px;
+
+  @media (min-width: $tablet-width) {
+    width: 415px;
+    margin: 40px 0 40px 90px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }
 
 .nutrition__motto {
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   line-height: 20px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .nutrition__toogle {
-  font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
-  background-color: $bg-basic-green;
-  text-decoration: none;
+  @media (min-width: $desktop-width) {
+    padding: 14px 27px;
+    background-color: $bg-basic-green;
+    font-size: 20px;
+    line-height: 26px;
+  }
 }

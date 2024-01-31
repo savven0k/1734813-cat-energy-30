@@ -1,9 +1,10 @@
-.button-submit {
-  font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
+.button {
+  color: $basic-white;
+  font-family: $primary-font;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
   background-color: $bg-basic-green;
-  border: 0;
 }

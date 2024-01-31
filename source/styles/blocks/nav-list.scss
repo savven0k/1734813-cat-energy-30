@@ -1,19 +1,15 @@
-@media (min-width: $tablet-width) {
-  .nav-list {
-    width: 436px;
+.nav-list__item {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  padding-top: 22px;
+  padding-bottom: 24px;
+  border-top: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-width) {
+    min-width: 64px;
+    border: none;
+    padding: 0;
   }
 }
 
-@media (min-width: $desktop-width) {
-  .site-list {
-    width: 475px;
-  }
-}
-
-.nav-list__link {
-  font-family: "Oswald", sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000;
-  text-decoration: none;
-}
